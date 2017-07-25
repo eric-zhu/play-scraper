@@ -7,6 +7,10 @@ COLLECTIONS = {
     'TOP_PAID': 'topselling_paid',
     'TOP_GROSSING': 'topgrossing',
     'TRENDING': 'movers_shakers',
+    'T-MOBILE': 'partnerchannel_am-android-tmobile-us',
+    'VERIZON': 'partnerchannel_am-android-verizon',
+    'SPRINT': 'partnerchannel_am-android-sprint-us?hl=en',
+    'AT&T': 'partnerchannel_am-android-att-us?hl=en',
 }
 
 CATEGORIES = {
