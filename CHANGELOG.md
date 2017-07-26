@@ -1,5 +1,10 @@
 # Changelog
 
+### 0.1.11-3: 2017-07-26
+
+* Fix SSLError: [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed (_ssl.c:600)
+* Fix failure of parsing app card info.
+
 ### 0.1.11: 2016-05-06
 
 * Arabic in Current Version metadata fix
