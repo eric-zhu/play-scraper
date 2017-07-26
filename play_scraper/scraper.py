@@ -331,8 +331,9 @@ class PlayScraper(object):
         if detailed:
             apps = self._parse_multiple_apps(response)
         else:
-            soup = BeautifulSoup(response.content, 'lxml')
+            soup = BeautifulSoup(response.content.decode('utf8', errors='replace'), 'lxml')
             apps = [self._parse_card_info(app) for app in soup.select('div[data-uitype=500]')]
+            self._log.info('url: %s, data: %s', url, data)
 
         return apps
 

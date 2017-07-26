@@ -33,6 +33,6 @@ setup(
         'beautifulsoup4>=4.4.1',
         'grequests>=0.3.0',
         'lxml>=3.6.0',
-        'requests>=2.9.1',
+        'requests[security]>=2.9.1',
     ],
 )
